@@ -42,3 +42,11 @@ p {
 	height: 0; 
 	clear: both;
 }
+
+.frontpagecolumn{
+	float: left;
+	padding: 0, 1em;
+	width: 33.33%;
+	margin: 3em;
+
+}
