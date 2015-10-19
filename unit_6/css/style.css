@@ -11,10 +11,10 @@ body {
 header {
 	text-align: center;
 	padding: 25px 50px;
-	margin: 3em;
+	margin: 1em;
 	background-color: #FCEBB6;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 2em;
 
 	}
@@ -37,12 +37,14 @@ a {
 
 	figure {
 	text-align: center;
-	margin: 2em;
 	padding: 0, 1em;
-	margin: 3em;
+	margin: 0em;
 
 	}
+	.clearfix {
+		margin: 0px auto;
 
+	}
 
 	.clearfix:after { 
 	content: "."; 
@@ -55,12 +57,12 @@ a {
 .thumbcolumn {
 	float: left;
 	padding: 0, 1em;
-	width: 33.33%;
-	margin: 3em;
+	width: 50%;
+	margin: 0em;
 }
 footer {
 	float: left;
 	padding: 0, 1em;
-	width: 33.33%;
-	margin: 3em;
+	width: 50%;
+	margin: 1em;
 }
